@@ -44,7 +44,7 @@ export class BodyComponent implements OnInit {
   constructor(private http: HttpClient) {}
 
   getData() {
-    const url = "https://mnitpoc.azurewebsites.net/api/getdetails";
+    const url = "/api/getdetails";
     try {
       this.http.get(url).subscribe((res: any) => {
         this.data = res.results;
