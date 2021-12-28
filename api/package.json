@@ -1,0 +1,13 @@
+{
+  "name": "nodejsfunctions",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "unirest": "^0.6.0"
+  },
+  "devDependencies": {}
+}
